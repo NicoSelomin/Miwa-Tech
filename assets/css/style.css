@@ -12,8 +12,21 @@ li > a.nav-link:hover{
 .fs-30{
     font-size: 19px !important;
 }
-/*.btn-contact{
+.btn-contact{
     background: #ff9000 !important;
     color: #fff !important;
     border: 1px solid #ff9000 !important;
+}
+
+.btn-contact:hover{
+    background: #024fc3 !important;
+    border: 1px solid #024fc3 !important;
+    transition: 0.5s;
+}
+/*.partner{
+    background: #ff9000 !important;
 }*/
+
+
+
+  
