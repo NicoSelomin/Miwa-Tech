@@ -1,0 +1,19 @@
+.navbar{
+    background: #024fc3;
+}
+
+li > a.nav-link:hover{
+    color: #ff9000 !important;
+    transform: scale(1.3);
+    transition: 0.5s;
+    margin-right: 10px;
+}
+
+.fs-30{
+    font-size: 19px !important;
+}
+.btn-contact{
+    background: #ff9000 !important;
+    color: #fff !important;
+    border: 1px solid #ff9000 !important;
+}
