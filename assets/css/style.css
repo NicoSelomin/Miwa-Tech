@@ -36,6 +36,9 @@ li > a.nav-link:hover{
 .text-c2{
     color: #ff9000 !important;
 }
+.justify{
+    text-align: justify !important;
+}
 
 
 
