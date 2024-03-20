@@ -23,9 +23,19 @@ li > a.nav-link:hover{
     border: 1px solid #024fc3 !important;
     transition: 0.5s;
 }
-/*.partner{
+.sec{
     background: #ff9000 !important;
-}*/
+}
+.pri{
+    background: #024fc3 !important;
+}
+
+.text-c1{
+    color: #024fc3 !important;
+}
+.text-c2{
+    color: #ff9000 !important;
+}
 
 
 
