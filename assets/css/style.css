@@ -4,6 +4,20 @@ header{
 main{
     display: none;
 }
+.montante{
+    width: 80px;
+    height: 80px;
+    background: #024fc3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    z-index: 1000;
+}
 .loader {
     position: absolute;
     width: 100%;
@@ -66,7 +80,7 @@ main{
 /* Media queries pour rendre le loader responsive */
 @media screen and (max-width: 768px) {
     .lettre {
-        font-size: 50px; /* Taille de police réduite pour les écrans plus petits */
+        font-size: 45px; /* Taille de police réduite pour les écrans plus petits */
         margin-bottom: 50px; /* Réduire la marge en bas pour les écrans plus petits */
     }
 }
