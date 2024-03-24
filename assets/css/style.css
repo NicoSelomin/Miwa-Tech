@@ -4,6 +4,7 @@ header{
 main{
     display: none;
 }
+
 .montante{
     width: 80px;
     height: 80px;
@@ -17,6 +18,15 @@ main{
     bottom: 20px;
     cursor: pointer;
     z-index: 1000;
+}
+.montante{
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .montante {
+       width: 60px;
+       height: 60px;
+    }
 }
 .loader {
     position: absolute;
@@ -80,7 +90,7 @@ main{
 /* Media queries pour rendre le loader responsive */
 @media screen and (max-width: 768px) {
     .lettre {
-        font-size: 45px; /* Taille de police réduite pour les écrans plus petits */
+        font-size: 40px; /* Taille de police réduite pour les écrans plus petits */
         margin-bottom: 50px; /* Réduire la marge en bas pour les écrans plus petits */
     }
 }

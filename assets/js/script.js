@@ -7,6 +7,7 @@ window.addEventListener('load', () => {
   loader.classList.add('fondu-out');
   header.style.display = 'block';
   main.style.display = 'block';
+  btn.style.display = 'flex';
 });
  btn.addEventListener('click', () => {
     window.scrollTo({
