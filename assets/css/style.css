@@ -4,6 +4,17 @@ header{
 main{
     display: none;
 }
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.07);
+    transition: 2s;
+}
+
+a{
+    text-decoration: none !important;
+}
 
 .montante{
     width: 80px;

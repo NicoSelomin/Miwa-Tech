@@ -3,6 +3,7 @@ const header = document.querySelector('header');
 const main = document.querySelector('main');
 const btn = document.querySelector('.montante');
 
+
 window.addEventListener('load', () => {
   loader.classList.add('fondu-out');
   header.style.display = 'block';
@@ -15,4 +16,4 @@ window.addEventListener('load', () => {
         left: 0,
         behavior:'smooth'
     })
- })
+ });
